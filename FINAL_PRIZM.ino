@@ -87,5 +87,6 @@ void loop(){
     char cmd=Serial.read();
     int a=cmd-'0';
     move(a);
+    Serial.write('1');
   }
 }
